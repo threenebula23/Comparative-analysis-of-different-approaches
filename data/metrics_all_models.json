@@ -1,0 +1,79 @@
+{
+  "linear_classify_dot": {
+    "metrics": {
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "precision_micro": 1.0,
+      "recall_micro": 1.0,
+      "f1_micro": 1.0
+    }
+  },
+  "decision_tree": {
+    "metrics": {
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "precision_micro": 1.0,
+      "recall_micro": 1.0,
+      "f1_micro": 1.0
+    }
+  },
+  "mlp_1hidden": {
+    "metrics": {
+      "accuracy": 0.77,
+      "precision_macro": 0.7713248798709347,
+      "recall_macro": 0.77,
+      "f1_macro": 0.7678258542708557,
+      "precision_micro": 0.77,
+      "recall_micro": 0.77,
+      "f1_micro": 0.77
+    }
+  },
+  "mlp_3hidden": {
+    "metrics": {
+      "accuracy": 0.735,
+      "precision_macro": 0.7350909230441864,
+      "recall_macro": 0.735,
+      "f1_macro": 0.7349532695090277,
+      "precision_micro": 0.735,
+      "recall_micro": 0.735,
+      "f1_micro": 0.735
+    }
+  },
+  "transformer": {
+    "metrics": {
+      "accuracy": 0.6066666666666667,
+      "precision_macro": 0.6138050260174668,
+      "recall_macro": 0.6066666666666667,
+      "f1_macro": 0.6056660605969143,
+      "precision_micro": 0.6066666666666667,
+      "recall_micro": 0.6066666666666667,
+      "f1_micro": 0.6066666666666667
+    }
+  },
+  "qiskit_vqc": {
+    "metrics": {
+      "accuracy": 0.2991666666666667,
+      "precision_macro": 0.29952533620672034,
+      "recall_macro": 0.2991666666666667,
+      "f1_macro": 0.29690327557665314,
+      "precision_micro": 0.2991666666666667,
+      "recall_micro": 0.2991666666666667,
+      "f1_micro": 0.2991666666666667
+    }
+  },
+  "tfq_pqc": {
+    "metrics": {
+      "accuracy": 0.615,
+      "precision_macro": 0.6247915332087863,
+      "recall_macro": 0.615,
+      "f1_macro": 0.6153196655393616,
+      "precision_micro": 0.615,
+      "recall_micro": 0.615,
+      "f1_micro": 0.615
+    }
+  }
+}
