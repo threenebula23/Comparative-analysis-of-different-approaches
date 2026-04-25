@@ -80,7 +80,7 @@ comparative analysis of different approaches/
 │   ├── processed_splits.npz            # после 02
 │   ├── scaler.pkl, label_encoder.pkl   # после 02
 │   └── metrics_all_models.json         # накапливается при прогоне 03–09
-├── plot/                               # графики (по умолчанию пусто кроме .gitkeep, заполняется прогонами)
+├── plot/                               # графики
 └── notebooks/                          # 01 … 10
 ```
 
