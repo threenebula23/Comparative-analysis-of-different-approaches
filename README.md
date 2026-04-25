@@ -22,7 +22,7 @@
 
 | Компонент | Минимум / рекомендация |
 |-----------|------------------------|
-| **Python** | **3.10** (задано `requires-python` в `pyproject.toml`, файл `.python-version`) |
+| **Python** | **3.10** (задано `requires-python` в `pyproject.toml`) |
 | **Менеджер пакетов** | [uv](https://docs.astral.sh/uv/) (рекомендован) или `pip` с теми же версиями из `pyproject.toml` |
 | **Jupyter** | `jupyter` / `ipykernel` входят в зависимости проекта |
 | **Сеть** | при первом запуске 01 (скачивание **Natural Earth**; кэш: `data/natural_earth_cache/`) |
